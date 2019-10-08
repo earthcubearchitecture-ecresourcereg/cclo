@@ -1,0 +1,494 @@
+@prefix : <http://cor.esipfed.org/ont/earthcube/cclo#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://cor.esipfed.org/ont/earthcube/cclo> .
+
+<http://cor.esipfed.org/ont/earthcube/cclo> rdf:type owl:Ontology ;
+                                             <http://www.geneontology.org/formats/oboInOwl#created_by> <https://orcid.org/0000-0003-4808-4736> ;
+                                             <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-03-06T00:50:17Z"@en ;
+                                             rdfs:comment "This mini-ontology contains instances for each version of the licenses and public domain entities maintained by the Creative Commons (creativecommons.org)."@en ;
+                                             rdfs:label "Creative Commons Licenses Ontology"@en .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://creativecommons.org/ns#license
+<http://creativecommons.org/ns#license> rdf:type owl:AnnotationProperty ;
+                                        rdfs:subPropertyOf <http://purl.org/dc/terms/license> ;
+                                        rdfs:range <http://creativecommons.org/ns#License> .
+
+
+###  http://creativecommons.org/ns#morePermissions
+<http://creativecommons.org/ns#morePermissions> rdf:type owl:AnnotationProperty ;
+                                                rdfs:subPropertyOf <http://purl.org/dc/terms/relation> .
+
+
+###  http://creativecommons.org/ns#useGuidelines
+<http://creativecommons.org/ns#useGuidelines> rdf:type owl:AnnotationProperty ;
+                                              rdfs:subPropertyOf <http://purl.org/dc/terms/relation> .
+
+
+###  http://purl.org/dc/terms/license
+<http://purl.org/dc/terms/license> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/relation
+<http://purl.org/dc/terms/relation> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.geneontology.org/formats/oboInOwl#created_by
+<http://www.geneontology.org/formats/oboInOwl#created_by> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.geneontology.org/formats/oboInOwl#creation_date
+<http://www.geneontology.org/formats/oboInOwl#creation_date> rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://creativecommons.org/ns#deprecatedOn
+<http://creativecommons.org/ns#deprecatedOn> rdf:type owl:ObjectProperty ;
+                                             rdfs:domain <http://creativecommons.org/ns#License> ;
+                                             rdfs:label """deprecated
+		  on"""@en-us .
+
+
+###  http://creativecommons.org/ns#jurisdiction
+<http://creativecommons.org/ns#jurisdiction> rdf:type owl:ObjectProperty ;
+                                             rdfs:domain <http://creativecommons.org/ns#License> ;
+                                             rdfs:label "jurisdiction"@en-us .
+
+
+###  http://creativecommons.org/ns#legalcode
+<http://creativecommons.org/ns#legalcode> rdf:type owl:ObjectProperty ;
+                                          rdfs:domain <http://creativecommons.org/ns#License> .
+
+
+###  http://creativecommons.org/ns#license
+<http://creativecommons.org/ns#license> rdf:type owl:ObjectProperty .
+
+
+###  http://creativecommons.org/ns#permits
+<http://creativecommons.org/ns#permits> rdf:type owl:ObjectProperty ;
+                                        rdfs:domain <http://creativecommons.org/ns#License> ;
+                                        rdfs:label "permits"@en-us .
+
+
+###  http://creativecommons.org/ns#prohibits
+<http://creativecommons.org/ns#prohibits> rdf:type owl:ObjectProperty ;
+                                          rdfs:domain <http://creativecommons.org/ns#License> ;
+                                          rdfs:label "prohibits"@en-us .
+
+
+###  http://creativecommons.org/ns#requires
+<http://creativecommons.org/ns#requires> rdf:type owl:ObjectProperty ;
+                                         rdfs:domain <http://creativecommons.org/ns#License> ;
+                                         rdfs:label "requires"@en-us .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://creativecommons.org/ns#attributionName
+<http://creativecommons.org/ns#attributionName> rdf:type owl:DatatypeProperty ;
+                                                rdfs:range rdfs:Literal .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://cor.esipfed.org/ont/CCL_0000001
+<http://cor.esipfed.org/ont/CCL_0000001> rdf:type owl:Class ;
+                                         rdfs:subClassOf <http://creativecommons.org/ns#License> ;
+                                         <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> ;
+                                         <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-07-01T23:53:55Z"^^xsd:dateTime ;
+                                         rdfs:label "Attribution (CC BY)"@en .
+
+
+###  http://cor.esipfed.org/ont/CCL_0000002
+<http://cor.esipfed.org/ont/CCL_0000002> rdf:type owl:Class ;
+                                         rdfs:subClassOf <http://creativecommons.org/ns#License> ;
+                                         <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> ;
+                                         <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-07-01T23:54:26Z"^^xsd:dateTime ;
+                                         rdfs:label "Attribution ShareAlike (CC BY-SA)"@en .
+
+
+###  http://cor.esipfed.org/ont/CCL_0000003
+<http://cor.esipfed.org/ont/CCL_0000003> rdf:type owl:Class ;
+                                         rdfs:subClassOf <http://creativecommons.org/ns#License> ;
+                                         <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> ;
+                                         <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-07-01T23:54:48Z"^^xsd:dateTime ;
+                                         rdfs:label "Attribution-NoDerivatives 1.0"@en .
+
+
+###  http://cor.esipfed.org/ont/CCL_0000004
+<http://cor.esipfed.org/ont/CCL_0000004> rdf:type owl:Class ;
+                                         rdfs:subClassOf <http://creativecommons.org/ns#License> ;
+                                         <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> ;
+                                         <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-07-01T23:55:24Z"^^xsd:dateTime ;
+                                         rdfs:label "Attribution-NonCommercial (CC BY-NC)"@en .
+
+
+###  http://cor.esipfed.org/ont/CCL_0000005
+<http://cor.esipfed.org/ont/CCL_0000005> rdf:type owl:Class ;
+                                         rdfs:subClassOf <http://creativecommons.org/ns#License> ;
+                                         <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> ;
+                                         <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-07-01T23:56:08Z"^^xsd:dateTime ;
+                                         rdfs:label "Attribution-NonCommercial-ShareAlike (CC BY-NC-SA)"@en .
+
+
+###  http://cor.esipfed.org/ont/CCL_0000007
+<http://cor.esipfed.org/ont/CCL_0000007> rdf:type owl:Class ;
+                                         rdfs:subClassOf <http://creativecommons.org/ns#License> ;
+                                         <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> ;
+                                         <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-07-03T04:42:02Z"^^xsd:dateTime ;
+                                         rdfs:label "Attribution-NonCommercial-NoDerivatives (CC BY-NC-ND)"@en .
+
+
+###  http://cor.esipfed.org/ont/CCL_0000011
+<http://cor.esipfed.org/ont/CCL_0000011> rdf:type owl:Class ;
+                                         rdfs:subClassOf <http://creativecommons.org/ns#License> ;
+                                         <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> ;
+                                         <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-07-03T04:50:10Z"^^xsd:dateTime ;
+                                         rdfs:label "Public Domain"@en .
+
+
+###  http://core.esipfed.org/ont/SWL_0000014
+<http://core.esipfed.org/ont/SWL_0000014> rdf:type owl:Class ;
+                                          rdfs:subClassOf <http://cor.esipfed.org/ont/CCL_0000011> ;
+                                          <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> ;
+                                          <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-07-03T22:53:19Z"^^xsd:dateTime ;
+                                          rdfs:label "PDM \"No Known Copyright\""@en .
+
+
+###  http://creativecommons.org/ns#License
+<http://creativecommons.org/ns#License> rdf:type owl:Class ;
+                                        rdfs:subClassOf <http://purl.org/dc/terms/LicenseDocument> ;
+                                        rdfs:comment """a set of
+		    requests/permissions to users of a Work, e.g. a
+		    copyright license, the public domain, information
+		    for distributors"""@en-us ;
+                                        rdfs:label "License"@en-us .
+
+
+###  http://purl.org/dc/terms/LicenseDocument
+<http://purl.org/dc/terms/LicenseDocument> rdf:type owl:Class .
+
+
+###  https://creativecommons.org/share-your-work/public-domain/cc0/
+<https://creativecommons.org/share-your-work/public-domain/cc0/> rdf:type owl:Class ;
+                                                                 rdfs:subClassOf <http://cor.esipfed.org/ont/CCL_0000011> ;
+                                                                 <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> ;
+                                                                 <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-07-03T04:55:44Z"^^xsd:dateTime ;
+                                                                 rdfs:label "CC0 “No Rights Reserved”"@en .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://creativecommons.org/ns#license
+<http://creativecommons.org/ns#license> rdf:type owl:NamedIndividual ;
+                                        owl:sameAs <http://www.w3.org/1999/xhtml/vocab#license> .
+
+
+###  http://www.w3.org/1999/xhtml/vocab#license
+<http://www.w3.org/1999/xhtml/vocab#license> rdf:type owl:NamedIndividual .
+
+
+###  https://creativecommons.org/licenses/by-nc-nd/1.0/
+<https://creativecommons.org/licenses/by-nc-nd/1.0/> rdf:type owl:NamedIndividual ,
+                                                              <http://cor.esipfed.org/ont/CCL_0000007> ;
+                                                     <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> ;
+                                                     <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-07-03T22:42:11Z"^^xsd:dateTime ;
+                                                     rdfs:label "CC BY-ND-NC 1.0"@en .
+
+
+###  https://creativecommons.org/licenses/by-nc-nd/2.0/
+<https://creativecommons.org/licenses/by-nc-nd/2.0/> rdf:type owl:NamedIndividual ,
+                                                              <http://cor.esipfed.org/ont/CCL_0000007> ;
+                                                     <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> ;
+                                                     <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-07-03T22:40:32Z"^^xsd:dateTime ;
+                                                     rdfs:label "CC BY-NC-ND 2.0"@en .
+
+
+###  https://creativecommons.org/licenses/by-nc-nd/3.0/
+<https://creativecommons.org/licenses/by-nc-nd/3.0/> rdf:type owl:NamedIndividual ,
+                                                              <http://cor.esipfed.org/ont/CCL_0000007> ;
+                                                     <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> ;
+                                                     <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-07-03T22:39:21Z"^^xsd:dateTime ;
+                                                     rdfs:label "CC BY-NC-ND 3.0"@en .
+
+
+###  https://creativecommons.org/licenses/by-nc-nd/4.0/
+<https://creativecommons.org/licenses/by-nc-nd/4.0/> rdf:type owl:NamedIndividual ,
+                                                              <http://cor.esipfed.org/ont/CCL_0000007> ;
+                                                     <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> ;
+                                                     <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-07-03T22:38:05Z"^^xsd:dateTime ;
+                                                     rdfs:label "CC BY-NC-ND 4.0" .
+
+
+###  https://creativecommons.org/licenses/by-nc-sa/1.0/
+<https://creativecommons.org/licenses/by-nc-sa/1.0/> rdf:type owl:NamedIndividual ,
+                                                              <http://cor.esipfed.org/ont/CCL_0000005> ;
+                                                     <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> ;
+                                                     <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-07-03T04:34:23Z"^^xsd:dateTime ;
+                                                     rdfs:label "CC BY-NC-SA 1.0"@en .
+
+
+###  https://creativecommons.org/licenses/by-nc-sa/2.0/
+<https://creativecommons.org/licenses/by-nc-sa/2.0/> rdf:type owl:NamedIndividual ,
+                                                              <http://cor.esipfed.org/ont/CCL_0000005> ;
+                                                     <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> ;
+                                                     <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-07-03T04:33:38Z"^^xsd:dateTime ;
+                                                     rdfs:label "CC BY-NC-SA 2.0"@en .
+
+
+###  https://creativecommons.org/licenses/by-nc-sa/3.0/
+<https://creativecommons.org/licenses/by-nc-sa/3.0/> rdf:type owl:NamedIndividual ,
+                                                              <http://cor.esipfed.org/ont/CCL_0000005> ;
+                                                     <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> ;
+                                                     <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-07-03T04:32:40Z"^^xsd:dateTime ;
+                                                     rdfs:label "CC BY-NC-SA 3.0"@en .
+
+
+###  https://creativecommons.org/licenses/by-nc-sa/4.0/
+<https://creativecommons.org/licenses/by-nc-sa/4.0/> rdf:type owl:NamedIndividual ,
+                                                              <http://cor.esipfed.org/ont/CCL_0000005> ;
+                                                     <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-07-03T04:31:34Z"^^xsd:dateTime ;
+                                                     rdfs:label "CC BY-NC-SA 4.0"@en .
+
+
+###  https://creativecommons.org/licenses/by-nc/1.0
+<https://creativecommons.org/licenses/by-nc/1.0> rdf:type owl:NamedIndividual ,
+                                                          <http://cor.esipfed.org/ont/CCL_0000004> ;
+                                                 <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> ;
+                                                 <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-07-03T22:46:04Z"^^xsd:dateTime ;
+                                                 rdfs:label "CC BY-NC 1.0"@en .
+
+
+###  https://creativecommons.org/licenses/by-nc/2.0
+<https://creativecommons.org/licenses/by-nc/2.0> rdf:type owl:NamedIndividual ,
+                                                          <http://cor.esipfed.org/ont/CCL_0000004> ;
+                                                 <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> ;
+                                                 <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-07-03T22:45:09Z"^^xsd:dateTime ;
+                                                 rdfs:label "CC BY-NC 2.0"@en .
+
+
+###  https://creativecommons.org/licenses/by-nc/3.0/
+<https://creativecommons.org/licenses/by-nc/3.0/> rdf:type owl:NamedIndividual ,
+                                                           <http://cor.esipfed.org/ont/CCL_0000004> ;
+                                                  <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> ;
+                                                  <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-07-03T22:44:20Z"^^xsd:dateTime ;
+                                                  rdfs:label "CC BY-NC 3.0"@en .
+
+
+###  https://creativecommons.org/licenses/by-nc/4.0/
+<https://creativecommons.org/licenses/by-nc/4.0/> rdf:type owl:NamedIndividual ,
+                                                           <http://cor.esipfed.org/ont/CCL_0000004> ;
+                                                  <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> ;
+                                                  <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-07-03T22:43:41Z"^^xsd:dateTime ;
+                                                  rdfs:label "CC BY-NC 4.0"@en .
+
+
+###  https://creativecommons.org/licenses/by-nd/1.0/
+<https://creativecommons.org/licenses/by-nd/1.0/> rdf:type owl:NamedIndividual ,
+                                                           <http://cor.esipfed.org/ont/CCL_0000003> ;
+                                                  <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> ;
+                                                  <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-07-02T00:21:33Z"^^xsd:dateTime ;
+                                                  rdfs:label "CC BY-ND 1.0"@en .
+
+
+###  https://creativecommons.org/licenses/by-nd/2.0/
+<https://creativecommons.org/licenses/by-nd/2.0/> rdf:type owl:NamedIndividual ,
+                                                           <http://cor.esipfed.org/ont/CCL_0000003> ;
+                                                  <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> ;
+                                                  <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-07-02T00:20:44Z"^^xsd:dateTime ;
+                                                  rdfs:label "CC BY-ND 2.0"@en .
+
+
+###  https://creativecommons.org/licenses/by-nd/3.0/
+<https://creativecommons.org/licenses/by-nd/3.0/> rdf:type owl:NamedIndividual ,
+                                                           <http://cor.esipfed.org/ont/CCL_0000003> ;
+                                                  <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> ;
+                                                  <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-07-02T00:20:01Z"^^xsd:dateTime ;
+                                                  rdfs:label "CC BY-ND 3.0"@en .
+
+
+###  https://creativecommons.org/licenses/by-nd/4.0/
+<https://creativecommons.org/licenses/by-nd/4.0/> rdf:type owl:NamedIndividual ,
+                                                           <http://cor.esipfed.org/ont/CCL_0000003> ;
+                                                  <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> ;
+                                                  <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-07-02T00:17:38Z"^^xsd:dateTime ;
+                                                  rdfs:label "CC BY-ND 4.0"@en .
+
+
+###  https://creativecommons.org/licenses/by-sa/1.0/
+<https://creativecommons.org/licenses/by-sa/1.0/> rdf:type owl:NamedIndividual ,
+                                                           <http://cor.esipfed.org/ont/CCL_0000002> ;
+                                                  <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> ;
+                                                  <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-07-02T00:16:37Z"^^xsd:dateTime ;
+                                                  rdfs:label "CC BY-SA 1.0"@en .
+
+
+###  https://creativecommons.org/licenses/by-sa/2.0/
+<https://creativecommons.org/licenses/by-sa/2.0/> rdf:type owl:NamedIndividual ,
+                                                           <http://cor.esipfed.org/ont/CCL_0000002> ;
+                                                  <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> ;
+                                                  <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-07-02T00:15:44Z"^^xsd:dateTime ;
+                                                  rdfs:label "CC BY-SA 2.0"@en .
+
+
+###  https://creativecommons.org/licenses/by-sa/3.0/
+<https://creativecommons.org/licenses/by-sa/3.0/> rdf:type owl:NamedIndividual ,
+                                                           <http://cor.esipfed.org/ont/CCL_0000002> ;
+                                                  <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> ;
+                                                  <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-07-02T00:14:59Z"^^xsd:dateTime ;
+                                                  rdfs:label "CC BY-SA 3.0"@en .
+
+
+###  https://creativecommons.org/licenses/by-sa/4.0/
+<https://creativecommons.org/licenses/by-sa/4.0/> rdf:type owl:NamedIndividual ,
+                                                           <http://cor.esipfed.org/ont/CCL_0000002> ;
+                                                  <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> ;
+                                                  <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-07-02T00:14:12Z"^^xsd:dateTime ;
+                                                  rdfs:label "CC BY-SA 4.0"@en .
+
+
+###  https://creativecommons.org/licenses/by/1.0/
+<https://creativecommons.org/licenses/by/1.0/> rdf:type owl:NamedIndividual ,
+                                                        <http://cor.esipfed.org/ont/CCL_0000001> ;
+                                               <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> ;
+                                               <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-07-02T00:11:55Z"^^xsd:dateTime ;
+                                               rdfs:label "CC BY 1.0"@en .
+
+
+###  https://creativecommons.org/licenses/by/2.0/
+<https://creativecommons.org/licenses/by/2.0/> rdf:type owl:NamedIndividual ,
+                                                        <http://cor.esipfed.org/ont/CCL_0000001> ;
+                                               <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> ;
+                                               <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-07-02T00:11:12Z"^^xsd:dateTime ;
+                                               rdfs:label "CC BY 2.0"@en .
+
+
+###  https://creativecommons.org/licenses/by/3.0/
+<https://creativecommons.org/licenses/by/3.0/> rdf:type owl:NamedIndividual ,
+                                                        <http://cor.esipfed.org/ont/CCL_0000001> ;
+                                               <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> ;
+                                               <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-07-02T00:10:40Z"^^xsd:dateTime ;
+                                               rdfs:label "CC BY 3.0"@en .
+
+
+###  https://creativecommons.org/licenses/by/4.0/
+<https://creativecommons.org/licenses/by/4.0/> rdf:type owl:NamedIndividual ,
+                                                        <http://cor.esipfed.org/ont/CCL_0000001> ;
+                                               <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> ;
+                                               <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-07-02T00:06:34Z"^^xsd:dateTime ;
+                                               rdfs:label "CC BY 4.0"@en .
+
+
+###  https://creativecommons.org/publicdomain/zero/1.0/
+<https://creativecommons.org/publicdomain/zero/1.0/> rdf:type owl:NamedIndividual ,
+                                                              <https://creativecommons.org/share-your-work/public-domain/cc0/> ;
+                                                     <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> ;
+                                                     <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-07-03T04:57:48Z"^^xsd:dateTime ;
+                                                     rdfs:label "CC0 1.0 Universal (CC0 1.0) Public Domain Dedication"@en .
+
+
+###  https://creativecommons.org/share-your-work/public-domain/pdm
+<https://creativecommons.org/share-your-work/public-domain/pdm> rdf:type owl:NamedIndividual ,
+                                                                         <http://core.esipfed.org/ont/SWL_0000014> ;
+                                                                <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> ;
+                                                                <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-07-03T04:52:56Z"^^xsd:dateTime ;
+                                                                rdfs:label "Public Domain Mark"@en .
+
+
+[ <http://creativecommons.org/ns#license> <https://creativecommons.org/publicdomain/zero/1.0/>
+] .
+
+#################################################################
+#    Annotations
+#################################################################
+
+<http://creativecommons.org/ns#Attribution> rdfs:comment """credit be given to
+		    copyright holder and/or author"""@en-us ;
+                                             rdfs:label "Attribution"@en-us .
+
+
+<http://creativecommons.org/ns#CommercialUse> rdfs:comment """exercising rights for
+		    commercial purposes"""@en-us ;
+                                              rdfs:label "Commercial Use"@en-us .
+
+
+<http://creativecommons.org/ns#Copyleft> rdfs:comment """derivative and
+		    combined works must be licensed under specified
+		    terms, similar to those on the original
+		    work"""@en-us ;
+                                         rdfs:label "Copyleft"@en-us .
+
+
+<http://creativecommons.org/ns#DerivativeWorks> rdfs:comment """distribution of
+		    derivative works"""@en-us ;
+                                                rdfs:label "Derivative Works"@en-us .
+
+
+<http://creativecommons.org/ns#Distribution> rdfs:comment """distribution, public
+		    display, and publicly performance"""@en-us ;
+                                             rdfs:label "Distribution"@en-us .
+
+
+<http://creativecommons.org/ns#HighIncomeNationUse> rdfs:comment """use in a
+		    non-developing country"""@en-us ;
+                                                    rdfs:label "High Income Nation Use"@en-us .
+
+
+<http://creativecommons.org/ns#LesserCopyleft> rdfs:comment """derivative works must
+		    be licensed under specified terms, with at least
+		    the same conditions as the original work;
+		    combinations with the work may be licensed under
+		    different terms"""@en-us ;
+                                               rdfs:label "Lesser Copyleft"@en-us .
+
+
+<http://creativecommons.org/ns#Notice> rdfs:comment """copyright and license
+		    notices be kept intact"""@en-us ;
+                                       rdfs:label "Notice"@en-us .
+
+
+<http://creativecommons.org/ns#Reproduction> rdfs:comment """making multiple
+		    copies"""@en-us ;
+                                             rdfs:label "Reproduction"@en-us .
+
+
+<http://creativecommons.org/ns#ShareAlike> rdfs:comment """derivative works be
+		    licensed under the same terms or compatible terms
+		    as the original work"""@en-us ;
+                                           rdfs:label "Share Alike"@en-us .
+
+
+<http://creativecommons.org/ns#Sharing> rdfs:comment """permits commercial
+		    derivatives, but only non-commercial
+		    distribution"""@en-us ;
+                                        rdfs:label "Sharing"@en-us .
+
+
+<http://creativecommons.org/ns#SourceCode> rdfs:comment """source code (the
+		    preferred form for making modifications) must be
+		    provided when exercising some rights granted by
+		    the license."""@en-us ;
+                                           rdfs:label "Source Code"@en-us .
+
+
+<http://creativecommons.org/ns#license> rdfs:label """has
+		  license"""@en-us .
+
+
+###  Generated by the OWL API (version 5.1.9) https://github.com/owlcs/owlapi/

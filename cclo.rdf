@@ -1,0 +1,699 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl"
+     xmlns:cc="http://creativecommons.org/ns#"
+     xmlns:dc="http://purl.org/dc/terms/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
+    <Ontology rdf:about="http://cor.esipfed.org/ont/earthcube/cclo">
+        <oboInOwl:created_by rdf:resource="https://orcid.org/0000-0003-4808-4736"/>
+        <oboInOwl:creation_date xml:lang="en">2019-03-06T00:50:17Z</oboInOwl:creation_date>
+        <rdfs:comment xml:lang="en">This mini-ontology contains instances for each version of the licenses and public domain entities maintained by the Creative Commons (creativecommons.org).</rdfs:comment>
+        <rdfs:label xml:lang="en">Creative Commons Licenses Ontology</rdfs:label>
+    </Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://creativecommons.org/ns#license -->
+
+    <AnnotationProperty rdf:about="http://creativecommons.org/ns#license">
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/license"/>
+        <rdfs:range rdf:resource="http://creativecommons.org/ns#License"/>
+    </AnnotationProperty>
+    
+
+
+    <!-- http://creativecommons.org/ns#morePermissions -->
+
+    <AnnotationProperty rdf:about="http://creativecommons.org/ns#morePermissions">
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/relation"/>
+    </AnnotationProperty>
+    
+
+
+    <!-- http://creativecommons.org/ns#useGuidelines -->
+
+    <AnnotationProperty rdf:about="http://creativecommons.org/ns#useGuidelines">
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/relation"/>
+    </AnnotationProperty>
+    
+
+
+    <!-- http://purl.org/dc/terms/license -->
+
+    <AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/relation -->
+
+    <AnnotationProperty rdf:about="http://purl.org/dc/terms/relation"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#created_by -->
+
+    <AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#created_by"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#creation_date -->
+
+    <AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#creation_date"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://creativecommons.org/ns#deprecatedOn -->
+
+    <ObjectProperty rdf:about="http://creativecommons.org/ns#deprecatedOn">
+        <rdfs:domain rdf:resource="http://creativecommons.org/ns#License"/>
+        <rdfs:label xml:lang="en-us">deprecated
+		  on</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://creativecommons.org/ns#jurisdiction -->
+
+    <ObjectProperty rdf:about="http://creativecommons.org/ns#jurisdiction">
+        <rdfs:domain rdf:resource="http://creativecommons.org/ns#License"/>
+        <rdfs:label xml:lang="en-us">jurisdiction</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://creativecommons.org/ns#legalcode -->
+
+    <ObjectProperty rdf:about="http://creativecommons.org/ns#legalcode">
+        <rdfs:domain rdf:resource="http://creativecommons.org/ns#License"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://creativecommons.org/ns#license -->
+
+    <ObjectProperty rdf:about="http://creativecommons.org/ns#license"/>
+    
+
+
+    <!-- http://creativecommons.org/ns#permits -->
+
+    <ObjectProperty rdf:about="http://creativecommons.org/ns#permits">
+        <rdfs:domain rdf:resource="http://creativecommons.org/ns#License"/>
+        <rdfs:label xml:lang="en-us">permits</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://creativecommons.org/ns#prohibits -->
+
+    <ObjectProperty rdf:about="http://creativecommons.org/ns#prohibits">
+        <rdfs:domain rdf:resource="http://creativecommons.org/ns#License"/>
+        <rdfs:label xml:lang="en-us">prohibits</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://creativecommons.org/ns#requires -->
+
+    <ObjectProperty rdf:about="http://creativecommons.org/ns#requires">
+        <rdfs:domain rdf:resource="http://creativecommons.org/ns#License"/>
+        <rdfs:label xml:lang="en-us">requires</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://creativecommons.org/ns#attributionName -->
+
+    <DatatypeProperty rdf:about="http://creativecommons.org/ns#attributionName">
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://cor.esipfed.org/ont/CCL_0000001 -->
+
+    <Class rdf:about="http://cor.esipfed.org/ont/CCL_0000001">
+        <rdfs:subClassOf rdf:resource="http://creativecommons.org/ns#License"/>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-01T23:53:55Z</oboInOwl:creation_date>
+        <rdfs:label xml:lang="en">Attribution (CC BY)</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/CCL_0000002 -->
+
+    <Class rdf:about="http://cor.esipfed.org/ont/CCL_0000002">
+        <rdfs:subClassOf rdf:resource="http://creativecommons.org/ns#License"/>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-01T23:54:26Z</oboInOwl:creation_date>
+        <rdfs:label xml:lang="en">Attribution ShareAlike (CC BY-SA)</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/CCL_0000003 -->
+
+    <Class rdf:about="http://cor.esipfed.org/ont/CCL_0000003">
+        <rdfs:subClassOf rdf:resource="http://creativecommons.org/ns#License"/>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-01T23:54:48Z</oboInOwl:creation_date>
+        <rdfs:label xml:lang="en">Attribution-NoDerivatives 1.0</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/CCL_0000004 -->
+
+    <Class rdf:about="http://cor.esipfed.org/ont/CCL_0000004">
+        <rdfs:subClassOf rdf:resource="http://creativecommons.org/ns#License"/>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-01T23:55:24Z</oboInOwl:creation_date>
+        <rdfs:label xml:lang="en">Attribution-NonCommercial (CC BY-NC)</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/CCL_0000005 -->
+
+    <Class rdf:about="http://cor.esipfed.org/ont/CCL_0000005">
+        <rdfs:subClassOf rdf:resource="http://creativecommons.org/ns#License"/>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-01T23:56:08Z</oboInOwl:creation_date>
+        <rdfs:label xml:lang="en">Attribution-NonCommercial-ShareAlike (CC BY-NC-SA)</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/CCL_0000007 -->
+
+    <Class rdf:about="http://cor.esipfed.org/ont/CCL_0000007">
+        <rdfs:subClassOf rdf:resource="http://creativecommons.org/ns#License"/>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-03T04:42:02Z</oboInOwl:creation_date>
+        <rdfs:label xml:lang="en">Attribution-NonCommercial-NoDerivatives (CC BY-NC-ND)</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/CCL_0000011 -->
+
+    <Class rdf:about="http://cor.esipfed.org/ont/CCL_0000011">
+        <rdfs:subClassOf rdf:resource="http://creativecommons.org/ns#License"/>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-03T04:50:10Z</oboInOwl:creation_date>
+        <rdfs:label xml:lang="en">Public Domain</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://core.esipfed.org/ont/SWL_0000014 -->
+
+    <Class rdf:about="http://core.esipfed.org/ont/SWL_0000014">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/CCL_0000011"/>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-03T22:53:19Z</oboInOwl:creation_date>
+        <rdfs:label xml:lang="en">PDM &quot;No Known Copyright&quot;</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://creativecommons.org/ns#License -->
+
+    <Class rdf:about="http://creativecommons.org/ns#License">
+        <rdfs:subClassOf rdf:resource="http://purl.org/dc/terms/LicenseDocument"/>
+        <rdfs:comment xml:lang="en-us">a set of
+		    requests/permissions to users of a Work, e.g. a
+		    copyright license, the public domain, information
+		    for distributors</rdfs:comment>
+        <rdfs:label xml:lang="en-us">License</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.org/dc/terms/LicenseDocument -->
+
+    <Class rdf:about="http://purl.org/dc/terms/LicenseDocument"/>
+    
+
+
+    <!-- https://creativecommons.org/share-your-work/public-domain/cc0/ -->
+
+    <Class rdf:about="https://creativecommons.org/share-your-work/public-domain/cc0/">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/CCL_0000011"/>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-03T04:55:44Z</oboInOwl:creation_date>
+        <rdfs:label xml:lang="en">CC0 “No Rights Reserved”</rdfs:label>
+    </Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://creativecommons.org/ns#license -->
+
+    <NamedIndividual rdf:about="http://creativecommons.org/ns#license">
+        <sameAs rdf:resource="http://www.w3.org/1999/xhtml/vocab#license"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.w3.org/1999/xhtml/vocab#license -->
+
+    <NamedIndividual rdf:about="http://www.w3.org/1999/xhtml/vocab#license"/>
+    
+
+
+    <!-- https://creativecommons.org/licenses/by-nc-nd/1.0/ -->
+
+    <NamedIndividual rdf:about="https://creativecommons.org/licenses/by-nc-nd/1.0/">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/CCL_0000007"/>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-03T22:42:11Z</oboInOwl:creation_date>
+        <rdfs:label xml:lang="en">CC BY-ND-NC 1.0</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://creativecommons.org/licenses/by-nc-nd/2.0/ -->
+
+    <NamedIndividual rdf:about="https://creativecommons.org/licenses/by-nc-nd/2.0/">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/CCL_0000007"/>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-03T22:40:32Z</oboInOwl:creation_date>
+        <rdfs:label xml:lang="en">CC BY-NC-ND 2.0</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://creativecommons.org/licenses/by-nc-nd/3.0/ -->
+
+    <NamedIndividual rdf:about="https://creativecommons.org/licenses/by-nc-nd/3.0/">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/CCL_0000007"/>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-03T22:39:21Z</oboInOwl:creation_date>
+        <rdfs:label xml:lang="en">CC BY-NC-ND 3.0</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://creativecommons.org/licenses/by-nc-nd/4.0/ -->
+
+    <NamedIndividual rdf:about="https://creativecommons.org/licenses/by-nc-nd/4.0/">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/CCL_0000007"/>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-03T22:38:05Z</oboInOwl:creation_date>
+        <rdfs:label>CC BY-NC-ND 4.0</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://creativecommons.org/licenses/by-nc-sa/1.0/ -->
+
+    <NamedIndividual rdf:about="https://creativecommons.org/licenses/by-nc-sa/1.0/">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/CCL_0000005"/>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-03T04:34:23Z</oboInOwl:creation_date>
+        <rdfs:label xml:lang="en">CC BY-NC-SA 1.0</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://creativecommons.org/licenses/by-nc-sa/2.0/ -->
+
+    <NamedIndividual rdf:about="https://creativecommons.org/licenses/by-nc-sa/2.0/">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/CCL_0000005"/>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-03T04:33:38Z</oboInOwl:creation_date>
+        <rdfs:label xml:lang="en">CC BY-NC-SA 2.0</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://creativecommons.org/licenses/by-nc-sa/3.0/ -->
+
+    <NamedIndividual rdf:about="https://creativecommons.org/licenses/by-nc-sa/3.0/">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/CCL_0000005"/>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-03T04:32:40Z</oboInOwl:creation_date>
+        <rdfs:label xml:lang="en">CC BY-NC-SA 3.0</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://creativecommons.org/licenses/by-nc-sa/4.0/ -->
+
+    <NamedIndividual rdf:about="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/CCL_0000005"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-03T04:31:34Z</oboInOwl:creation_date>
+        <rdfs:label xml:lang="en">CC BY-NC-SA 4.0</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://creativecommons.org/licenses/by-nc/1.0 -->
+
+    <NamedIndividual rdf:about="https://creativecommons.org/licenses/by-nc/1.0">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/CCL_0000004"/>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-03T22:46:04Z</oboInOwl:creation_date>
+        <rdfs:label xml:lang="en">CC BY-NC 1.0</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://creativecommons.org/licenses/by-nc/2.0 -->
+
+    <NamedIndividual rdf:about="https://creativecommons.org/licenses/by-nc/2.0">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/CCL_0000004"/>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-03T22:45:09Z</oboInOwl:creation_date>
+        <rdfs:label xml:lang="en">CC BY-NC 2.0</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://creativecommons.org/licenses/by-nc/3.0/ -->
+
+    <NamedIndividual rdf:about="https://creativecommons.org/licenses/by-nc/3.0/">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/CCL_0000004"/>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-03T22:44:20Z</oboInOwl:creation_date>
+        <rdfs:label xml:lang="en">CC BY-NC 3.0</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://creativecommons.org/licenses/by-nc/4.0/ -->
+
+    <NamedIndividual rdf:about="https://creativecommons.org/licenses/by-nc/4.0/">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/CCL_0000004"/>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-03T22:43:41Z</oboInOwl:creation_date>
+        <rdfs:label xml:lang="en">CC BY-NC 4.0</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://creativecommons.org/licenses/by-nd/1.0/ -->
+
+    <NamedIndividual rdf:about="https://creativecommons.org/licenses/by-nd/1.0/">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/CCL_0000003"/>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-02T00:21:33Z</oboInOwl:creation_date>
+        <rdfs:label xml:lang="en">CC BY-ND 1.0</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://creativecommons.org/licenses/by-nd/2.0/ -->
+
+    <NamedIndividual rdf:about="https://creativecommons.org/licenses/by-nd/2.0/">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/CCL_0000003"/>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-02T00:20:44Z</oboInOwl:creation_date>
+        <rdfs:label xml:lang="en">CC BY-ND 2.0</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://creativecommons.org/licenses/by-nd/3.0/ -->
+
+    <NamedIndividual rdf:about="https://creativecommons.org/licenses/by-nd/3.0/">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/CCL_0000003"/>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-02T00:20:01Z</oboInOwl:creation_date>
+        <rdfs:label xml:lang="en">CC BY-ND 3.0</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://creativecommons.org/licenses/by-nd/4.0/ -->
+
+    <NamedIndividual rdf:about="https://creativecommons.org/licenses/by-nd/4.0/">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/CCL_0000003"/>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-02T00:17:38Z</oboInOwl:creation_date>
+        <rdfs:label xml:lang="en">CC BY-ND 4.0</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://creativecommons.org/licenses/by-sa/1.0/ -->
+
+    <NamedIndividual rdf:about="https://creativecommons.org/licenses/by-sa/1.0/">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/CCL_0000002"/>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-02T00:16:37Z</oboInOwl:creation_date>
+        <rdfs:label xml:lang="en">CC BY-SA 1.0</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://creativecommons.org/licenses/by-sa/2.0/ -->
+
+    <NamedIndividual rdf:about="https://creativecommons.org/licenses/by-sa/2.0/">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/CCL_0000002"/>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-02T00:15:44Z</oboInOwl:creation_date>
+        <rdfs:label xml:lang="en">CC BY-SA 2.0</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://creativecommons.org/licenses/by-sa/3.0/ -->
+
+    <NamedIndividual rdf:about="https://creativecommons.org/licenses/by-sa/3.0/">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/CCL_0000002"/>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-02T00:14:59Z</oboInOwl:creation_date>
+        <rdfs:label xml:lang="en">CC BY-SA 3.0</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://creativecommons.org/licenses/by-sa/4.0/ -->
+
+    <NamedIndividual rdf:about="https://creativecommons.org/licenses/by-sa/4.0/">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/CCL_0000002"/>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-02T00:14:12Z</oboInOwl:creation_date>
+        <rdfs:label xml:lang="en">CC BY-SA 4.0</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://creativecommons.org/licenses/by/1.0/ -->
+
+    <NamedIndividual rdf:about="https://creativecommons.org/licenses/by/1.0/">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/CCL_0000001"/>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-02T00:11:55Z</oboInOwl:creation_date>
+        <rdfs:label xml:lang="en">CC BY 1.0</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://creativecommons.org/licenses/by/2.0/ -->
+
+    <NamedIndividual rdf:about="https://creativecommons.org/licenses/by/2.0/">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/CCL_0000001"/>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-02T00:11:12Z</oboInOwl:creation_date>
+        <rdfs:label xml:lang="en">CC BY 2.0</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://creativecommons.org/licenses/by/3.0/ -->
+
+    <NamedIndividual rdf:about="https://creativecommons.org/licenses/by/3.0/">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/CCL_0000001"/>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-02T00:10:40Z</oboInOwl:creation_date>
+        <rdfs:label xml:lang="en">CC BY 3.0</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://creativecommons.org/licenses/by/4.0/ -->
+
+    <NamedIndividual rdf:about="https://creativecommons.org/licenses/by/4.0/">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/CCL_0000001"/>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-02T00:06:34Z</oboInOwl:creation_date>
+        <rdfs:label xml:lang="en">CC BY 4.0</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://creativecommons.org/publicdomain/zero/1.0/ -->
+
+    <NamedIndividual rdf:about="https://creativecommons.org/publicdomain/zero/1.0/">
+        <rdf:type rdf:resource="https://creativecommons.org/share-your-work/public-domain/cc0/"/>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-03T04:57:48Z</oboInOwl:creation_date>
+        <rdfs:label xml:lang="en">CC0 1.0 Universal (CC0 1.0) Public Domain Dedication</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://creativecommons.org/share-your-work/public-domain/pdm -->
+
+    <NamedIndividual rdf:about="https://creativecommons.org/share-your-work/public-domain/pdm">
+        <rdf:type rdf:resource="http://core.esipfed.org/ont/SWL_0000014"/>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-03T04:52:56Z</oboInOwl:creation_date>
+        <rdfs:label xml:lang="en">Public Domain Mark</rdfs:label>
+    </NamedIndividual>
+    <rdf:Description>
+        <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="http://creativecommons.org/ns#Attribution">
+        <rdfs:label xml:lang="en-us">Attribution</rdfs:label>
+        <rdfs:comment xml:lang="en-us">credit be given to
+		    copyright holder and/or author</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://creativecommons.org/ns#CommercialUse">
+        <rdfs:label xml:lang="en-us">Commercial Use</rdfs:label>
+        <rdfs:comment xml:lang="en-us">exercising rights for
+		    commercial purposes</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://creativecommons.org/ns#Copyleft">
+        <rdfs:comment xml:lang="en-us">derivative and
+		    combined works must be licensed under specified
+		    terms, similar to those on the original
+		    work</rdfs:comment>
+        <rdfs:label xml:lang="en-us">Copyleft</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://creativecommons.org/ns#DerivativeWorks">
+        <rdfs:label xml:lang="en-us">Derivative Works</rdfs:label>
+        <rdfs:comment xml:lang="en-us">distribution of
+		    derivative works</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://creativecommons.org/ns#Distribution">
+        <rdfs:label xml:lang="en-us">Distribution</rdfs:label>
+        <rdfs:comment xml:lang="en-us">distribution, public
+		    display, and publicly performance</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://creativecommons.org/ns#HighIncomeNationUse">
+        <rdfs:comment xml:lang="en-us">use in a
+		    non-developing country</rdfs:comment>
+        <rdfs:label xml:lang="en-us">High Income Nation Use</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://creativecommons.org/ns#LesserCopyleft">
+        <rdfs:label xml:lang="en-us">Lesser Copyleft</rdfs:label>
+        <rdfs:comment xml:lang="en-us">derivative works must
+		    be licensed under specified terms, with at least
+		    the same conditions as the original work;
+		    combinations with the work may be licensed under
+		    different terms</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://creativecommons.org/ns#Notice">
+        <rdfs:comment xml:lang="en-us">copyright and license
+		    notices be kept intact</rdfs:comment>
+        <rdfs:label xml:lang="en-us">Notice</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://creativecommons.org/ns#Reproduction">
+        <rdfs:label xml:lang="en-us">Reproduction</rdfs:label>
+        <rdfs:comment xml:lang="en-us">making multiple
+		    copies</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://creativecommons.org/ns#ShareAlike">
+        <rdfs:label xml:lang="en-us">Share Alike</rdfs:label>
+        <rdfs:comment xml:lang="en-us">derivative works be
+		    licensed under the same terms or compatible terms
+		    as the original work</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://creativecommons.org/ns#Sharing">
+        <rdfs:comment xml:lang="en-us">permits commercial
+		    derivatives, but only non-commercial
+		    distribution</rdfs:comment>
+        <rdfs:label xml:lang="en-us">Sharing</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://creativecommons.org/ns#SourceCode">
+        <rdfs:label xml:lang="en-us">Source Code</rdfs:label>
+        <rdfs:comment xml:lang="en-us">source code (the
+		    preferred form for making modifications) must be
+		    provided when exercising some rights granted by
+		    the license.</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://creativecommons.org/ns#license">
+        <rdfs:label xml:lang="en-us">has
+		  license</rdfs:label>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.7.2018-12-02T02:23:35Z) https://github.com/owlcs/owlapi -->
+

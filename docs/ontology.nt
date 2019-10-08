@@ -1,0 +1,420 @@
+<http://cor.esipfed.org/ont/earthcube/cclo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://cor.esipfed.org/ont/earthcube/cclo> <http://www.geneontology.org/formats/oboInOwl#created_by> <https://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/earthcube/cclo> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-03-06T00:50:17Z"@en .
+<http://cor.esipfed.org/ont/earthcube/cclo> <http://www.w3.org/2000/01/rdf-schema#comment> "This mini-ontology contains instances for each version of the licenses and public domain entities maintained by the Creative Commons (creativecommons.org)."@en .
+<http://cor.esipfed.org/ont/earthcube/cclo> <http://www.w3.org/2000/01/rdf-schema#label> "Creative Commons Licenses Ontology"@en .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://creativecommons.org/ns#license
+<http://creativecommons.org/ns#license> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://creativecommons.org/ns#license> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/terms/license> .
+<http://creativecommons.org/ns#license> <http://www.w3.org/2000/01/rdf-schema#range> <http://creativecommons.org/ns#License> .
+# 
+# http://creativecommons.org/ns#morePermissions
+<http://creativecommons.org/ns#morePermissions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://creativecommons.org/ns#morePermissions> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/terms/relation> .
+# 
+# http://creativecommons.org/ns#useGuidelines
+<http://creativecommons.org/ns#useGuidelines> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://creativecommons.org/ns#useGuidelines> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/terms/relation> .
+# 
+# http://purl.org/dc/terms/license
+<http://purl.org/dc/terms/license> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/relation
+<http://purl.org/dc/terms/relation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.geneontology.org/formats/oboInOwl#created_by
+<http://www.geneontology.org/formats/oboInOwl#created_by> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.geneontology.org/formats/oboInOwl#creation_date
+<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://creativecommons.org/ns#deprecatedOn
+<http://creativecommons.org/ns#deprecatedOn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://creativecommons.org/ns#deprecatedOn> <http://www.w3.org/2000/01/rdf-schema#domain> <http://creativecommons.org/ns#License> .
+<http://creativecommons.org/ns#deprecatedOn> <http://www.w3.org/2000/01/rdf-schema#label> "deprecated\n\t\t  on"@en-us .
+# 
+# http://creativecommons.org/ns#jurisdiction
+<http://creativecommons.org/ns#jurisdiction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://creativecommons.org/ns#jurisdiction> <http://www.w3.org/2000/01/rdf-schema#domain> <http://creativecommons.org/ns#License> .
+<http://creativecommons.org/ns#jurisdiction> <http://www.w3.org/2000/01/rdf-schema#label> "jurisdiction"@en-us .
+# 
+# http://creativecommons.org/ns#legalcode
+<http://creativecommons.org/ns#legalcode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://creativecommons.org/ns#legalcode> <http://www.w3.org/2000/01/rdf-schema#domain> <http://creativecommons.org/ns#License> .
+# 
+# http://creativecommons.org/ns#license
+<http://creativecommons.org/ns#license> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# http://creativecommons.org/ns#permits
+<http://creativecommons.org/ns#permits> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://creativecommons.org/ns#permits> <http://www.w3.org/2000/01/rdf-schema#domain> <http://creativecommons.org/ns#License> .
+<http://creativecommons.org/ns#permits> <http://www.w3.org/2000/01/rdf-schema#label> "permits"@en-us .
+# 
+# http://creativecommons.org/ns#prohibits
+<http://creativecommons.org/ns#prohibits> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://creativecommons.org/ns#prohibits> <http://www.w3.org/2000/01/rdf-schema#domain> <http://creativecommons.org/ns#License> .
+<http://creativecommons.org/ns#prohibits> <http://www.w3.org/2000/01/rdf-schema#label> "prohibits"@en-us .
+# 
+# http://creativecommons.org/ns#requires
+<http://creativecommons.org/ns#requires> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://creativecommons.org/ns#requires> <http://www.w3.org/2000/01/rdf-schema#domain> <http://creativecommons.org/ns#License> .
+<http://creativecommons.org/ns#requires> <http://www.w3.org/2000/01/rdf-schema#label> "requires"@en-us .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# http://creativecommons.org/ns#attributionName
+<http://creativecommons.org/ns#attributionName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://creativecommons.org/ns#attributionName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://cor.esipfed.org/ont/CCL_0000001
+<http://cor.esipfed.org/ont/CCL_0000001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/CCL_0000001> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://creativecommons.org/ns#License> .
+<http://cor.esipfed.org/ont/CCL_0000001> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/CCL_0000001> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-07-01T23:53:55Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/CCL_0000001> <http://www.w3.org/2000/01/rdf-schema#label> "Attribution (CC BY)"@en .
+# 
+# http://cor.esipfed.org/ont/CCL_0000002
+<http://cor.esipfed.org/ont/CCL_0000002> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/CCL_0000002> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://creativecommons.org/ns#License> .
+<http://cor.esipfed.org/ont/CCL_0000002> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/CCL_0000002> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-07-01T23:54:26Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/CCL_0000002> <http://www.w3.org/2000/01/rdf-schema#label> "Attribution ShareAlike (CC BY-SA)"@en .
+# 
+# http://cor.esipfed.org/ont/CCL_0000003
+<http://cor.esipfed.org/ont/CCL_0000003> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/CCL_0000003> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://creativecommons.org/ns#License> .
+<http://cor.esipfed.org/ont/CCL_0000003> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/CCL_0000003> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-07-01T23:54:48Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/CCL_0000003> <http://www.w3.org/2000/01/rdf-schema#label> "Attribution-NoDerivatives 1.0"@en .
+# 
+# http://cor.esipfed.org/ont/CCL_0000004
+<http://cor.esipfed.org/ont/CCL_0000004> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/CCL_0000004> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://creativecommons.org/ns#License> .
+<http://cor.esipfed.org/ont/CCL_0000004> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/CCL_0000004> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-07-01T23:55:24Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/CCL_0000004> <http://www.w3.org/2000/01/rdf-schema#label> "Attribution-NonCommercial (CC BY-NC)"@en .
+# 
+# http://cor.esipfed.org/ont/CCL_0000005
+<http://cor.esipfed.org/ont/CCL_0000005> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/CCL_0000005> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://creativecommons.org/ns#License> .
+<http://cor.esipfed.org/ont/CCL_0000005> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/CCL_0000005> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-07-01T23:56:08Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/CCL_0000005> <http://www.w3.org/2000/01/rdf-schema#label> "Attribution-NonCommercial-ShareAlike (CC BY-NC-SA)"@en .
+# 
+# http://cor.esipfed.org/ont/CCL_0000007
+<http://cor.esipfed.org/ont/CCL_0000007> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/CCL_0000007> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://creativecommons.org/ns#License> .
+<http://cor.esipfed.org/ont/CCL_0000007> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/CCL_0000007> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-07-03T04:42:02Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/CCL_0000007> <http://www.w3.org/2000/01/rdf-schema#label> "Attribution-NonCommercial-NoDerivatives (CC BY-NC-ND)"@en .
+# 
+# http://cor.esipfed.org/ont/CCL_0000011
+<http://cor.esipfed.org/ont/CCL_0000011> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/CCL_0000011> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://creativecommons.org/ns#License> .
+<http://cor.esipfed.org/ont/CCL_0000011> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/CCL_0000011> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-07-03T04:50:10Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/CCL_0000011> <http://www.w3.org/2000/01/rdf-schema#label> "Public Domain"@en .
+# 
+# http://core.esipfed.org/ont/SWL_0000014
+<http://core.esipfed.org/ont/SWL_0000014> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://core.esipfed.org/ont/SWL_0000014> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/CCL_0000011> .
+<http://core.esipfed.org/ont/SWL_0000014> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://core.esipfed.org/ont/SWL_0000014> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-07-03T22:53:19Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://core.esipfed.org/ont/SWL_0000014> <http://www.w3.org/2000/01/rdf-schema#label> "PDM \"No Known Copyright\""@en .
+# 
+# http://creativecommons.org/ns#License
+<http://creativecommons.org/ns#License> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://creativecommons.org/ns#License> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/dc/terms/LicenseDocument> .
+<http://creativecommons.org/ns#License> <http://www.w3.org/2000/01/rdf-schema#comment> "a set of\n\t\t    requests/permissions to users of a Work, e.g. a\n\t\t    copyright license, the public domain, information\n\t\t    for distributors"@en-us .
+<http://creativecommons.org/ns#License> <http://www.w3.org/2000/01/rdf-schema#label> "License"@en-us .
+# 
+# http://purl.org/dc/terms/LicenseDocument
+<http://purl.org/dc/terms/LicenseDocument> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# https://creativecommons.org/share-your-work/public-domain/cc0/
+<https://creativecommons.org/share-your-work/public-domain/cc0/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://creativecommons.org/share-your-work/public-domain/cc0/> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/CCL_0000011> .
+<https://creativecommons.org/share-your-work/public-domain/cc0/> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<https://creativecommons.org/share-your-work/public-domain/cc0/> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-07-03T04:55:44Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://creativecommons.org/share-your-work/public-domain/cc0/> <http://www.w3.org/2000/01/rdf-schema#label> "CC0 “No Rights Reserved”"@en .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# http://creativecommons.org/ns#license
+<http://creativecommons.org/ns#license> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://creativecommons.org/ns#license> <http://www.w3.org/2002/07/owl#sameAs> <http://www.w3.org/1999/xhtml/vocab#license> .
+# 
+# http://www.w3.org/1999/xhtml/vocab#license
+<http://www.w3.org/1999/xhtml/vocab#license> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# https://creativecommons.org/licenses/by-nc-nd/1.0/
+<https://creativecommons.org/licenses/by-nc-nd/1.0/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://creativecommons.org/licenses/by-nc-nd/1.0/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://cor.esipfed.org/ont/CCL_0000007> .
+<https://creativecommons.org/licenses/by-nc-nd/1.0/> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<https://creativecommons.org/licenses/by-nc-nd/1.0/> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-07-03T22:42:11Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://creativecommons.org/licenses/by-nc-nd/1.0/> <http://www.w3.org/2000/01/rdf-schema#label> "CC BY-ND-NC 1.0"@en .
+# 
+# https://creativecommons.org/licenses/by-nc-nd/2.0/
+<https://creativecommons.org/licenses/by-nc-nd/2.0/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://creativecommons.org/licenses/by-nc-nd/2.0/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://cor.esipfed.org/ont/CCL_0000007> .
+<https://creativecommons.org/licenses/by-nc-nd/2.0/> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<https://creativecommons.org/licenses/by-nc-nd/2.0/> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-07-03T22:40:32Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://creativecommons.org/licenses/by-nc-nd/2.0/> <http://www.w3.org/2000/01/rdf-schema#label> "CC BY-NC-ND 2.0"@en .
+# 
+# https://creativecommons.org/licenses/by-nc-nd/3.0/
+<https://creativecommons.org/licenses/by-nc-nd/3.0/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://creativecommons.org/licenses/by-nc-nd/3.0/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://cor.esipfed.org/ont/CCL_0000007> .
+<https://creativecommons.org/licenses/by-nc-nd/3.0/> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<https://creativecommons.org/licenses/by-nc-nd/3.0/> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-07-03T22:39:21Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://creativecommons.org/licenses/by-nc-nd/3.0/> <http://www.w3.org/2000/01/rdf-schema#label> "CC BY-NC-ND 3.0"@en .
+# 
+# https://creativecommons.org/licenses/by-nc-nd/4.0/
+<https://creativecommons.org/licenses/by-nc-nd/4.0/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://creativecommons.org/licenses/by-nc-nd/4.0/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://cor.esipfed.org/ont/CCL_0000007> .
+<https://creativecommons.org/licenses/by-nc-nd/4.0/> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<https://creativecommons.org/licenses/by-nc-nd/4.0/> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-07-03T22:38:05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://creativecommons.org/licenses/by-nc-nd/4.0/> <http://www.w3.org/2000/01/rdf-schema#label> "CC BY-NC-ND 4.0" .
+# 
+# https://creativecommons.org/licenses/by-nc-sa/1.0/
+<https://creativecommons.org/licenses/by-nc-sa/1.0/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://creativecommons.org/licenses/by-nc-sa/1.0/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://cor.esipfed.org/ont/CCL_0000005> .
+<https://creativecommons.org/licenses/by-nc-sa/1.0/> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<https://creativecommons.org/licenses/by-nc-sa/1.0/> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-07-03T04:34:23Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://creativecommons.org/licenses/by-nc-sa/1.0/> <http://www.w3.org/2000/01/rdf-schema#label> "CC BY-NC-SA 1.0"@en .
+# 
+# https://creativecommons.org/licenses/by-nc-sa/2.0/
+<https://creativecommons.org/licenses/by-nc-sa/2.0/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://creativecommons.org/licenses/by-nc-sa/2.0/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://cor.esipfed.org/ont/CCL_0000005> .
+<https://creativecommons.org/licenses/by-nc-sa/2.0/> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<https://creativecommons.org/licenses/by-nc-sa/2.0/> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-07-03T04:33:38Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://creativecommons.org/licenses/by-nc-sa/2.0/> <http://www.w3.org/2000/01/rdf-schema#label> "CC BY-NC-SA 2.0"@en .
+# 
+# https://creativecommons.org/licenses/by-nc-sa/3.0/
+<https://creativecommons.org/licenses/by-nc-sa/3.0/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://creativecommons.org/licenses/by-nc-sa/3.0/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://cor.esipfed.org/ont/CCL_0000005> .
+<https://creativecommons.org/licenses/by-nc-sa/3.0/> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<https://creativecommons.org/licenses/by-nc-sa/3.0/> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-07-03T04:32:40Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://creativecommons.org/licenses/by-nc-sa/3.0/> <http://www.w3.org/2000/01/rdf-schema#label> "CC BY-NC-SA 3.0"@en .
+# 
+# https://creativecommons.org/licenses/by-nc-sa/4.0/
+<https://creativecommons.org/licenses/by-nc-sa/4.0/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://creativecommons.org/licenses/by-nc-sa/4.0/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://cor.esipfed.org/ont/CCL_0000005> .
+<https://creativecommons.org/licenses/by-nc-sa/4.0/> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-07-03T04:31:34Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://creativecommons.org/licenses/by-nc-sa/4.0/> <http://www.w3.org/2000/01/rdf-schema#label> "CC BY-NC-SA 4.0"@en .
+# 
+# https://creativecommons.org/licenses/by-nc/1.0
+<https://creativecommons.org/licenses/by-nc/1.0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://creativecommons.org/licenses/by-nc/1.0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://cor.esipfed.org/ont/CCL_0000004> .
+<https://creativecommons.org/licenses/by-nc/1.0> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<https://creativecommons.org/licenses/by-nc/1.0> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-07-03T22:46:04Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://creativecommons.org/licenses/by-nc/1.0> <http://www.w3.org/2000/01/rdf-schema#label> "CC BY-NC 1.0"@en .
+# 
+# https://creativecommons.org/licenses/by-nc/2.0
+<https://creativecommons.org/licenses/by-nc/2.0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://creativecommons.org/licenses/by-nc/2.0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://cor.esipfed.org/ont/CCL_0000004> .
+<https://creativecommons.org/licenses/by-nc/2.0> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<https://creativecommons.org/licenses/by-nc/2.0> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-07-03T22:45:09Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://creativecommons.org/licenses/by-nc/2.0> <http://www.w3.org/2000/01/rdf-schema#label> "CC BY-NC 2.0"@en .
+# 
+# https://creativecommons.org/licenses/by-nc/3.0/
+<https://creativecommons.org/licenses/by-nc/3.0/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://creativecommons.org/licenses/by-nc/3.0/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://cor.esipfed.org/ont/CCL_0000004> .
+<https://creativecommons.org/licenses/by-nc/3.0/> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<https://creativecommons.org/licenses/by-nc/3.0/> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-07-03T22:44:20Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://creativecommons.org/licenses/by-nc/3.0/> <http://www.w3.org/2000/01/rdf-schema#label> "CC BY-NC 3.0"@en .
+# 
+# https://creativecommons.org/licenses/by-nc/4.0/
+<https://creativecommons.org/licenses/by-nc/4.0/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://creativecommons.org/licenses/by-nc/4.0/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://cor.esipfed.org/ont/CCL_0000004> .
+<https://creativecommons.org/licenses/by-nc/4.0/> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<https://creativecommons.org/licenses/by-nc/4.0/> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-07-03T22:43:41Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://creativecommons.org/licenses/by-nc/4.0/> <http://www.w3.org/2000/01/rdf-schema#label> "CC BY-NC 4.0"@en .
+# 
+# https://creativecommons.org/licenses/by-nd/1.0/
+<https://creativecommons.org/licenses/by-nd/1.0/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://creativecommons.org/licenses/by-nd/1.0/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://cor.esipfed.org/ont/CCL_0000003> .
+<https://creativecommons.org/licenses/by-nd/1.0/> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<https://creativecommons.org/licenses/by-nd/1.0/> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-07-02T00:21:33Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://creativecommons.org/licenses/by-nd/1.0/> <http://www.w3.org/2000/01/rdf-schema#label> "CC BY-ND 1.0"@en .
+# 
+# https://creativecommons.org/licenses/by-nd/2.0/
+<https://creativecommons.org/licenses/by-nd/2.0/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://creativecommons.org/licenses/by-nd/2.0/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://cor.esipfed.org/ont/CCL_0000003> .
+<https://creativecommons.org/licenses/by-nd/2.0/> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<https://creativecommons.org/licenses/by-nd/2.0/> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-07-02T00:20:44Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://creativecommons.org/licenses/by-nd/2.0/> <http://www.w3.org/2000/01/rdf-schema#label> "CC BY-ND 2.0"@en .
+# 
+# https://creativecommons.org/licenses/by-nd/3.0/
+<https://creativecommons.org/licenses/by-nd/3.0/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://creativecommons.org/licenses/by-nd/3.0/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://cor.esipfed.org/ont/CCL_0000003> .
+<https://creativecommons.org/licenses/by-nd/3.0/> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<https://creativecommons.org/licenses/by-nd/3.0/> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-07-02T00:20:01Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://creativecommons.org/licenses/by-nd/3.0/> <http://www.w3.org/2000/01/rdf-schema#label> "CC BY-ND 3.0"@en .
+# 
+# https://creativecommons.org/licenses/by-nd/4.0/
+<https://creativecommons.org/licenses/by-nd/4.0/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://creativecommons.org/licenses/by-nd/4.0/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://cor.esipfed.org/ont/CCL_0000003> .
+<https://creativecommons.org/licenses/by-nd/4.0/> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<https://creativecommons.org/licenses/by-nd/4.0/> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-07-02T00:17:38Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://creativecommons.org/licenses/by-nd/4.0/> <http://www.w3.org/2000/01/rdf-schema#label> "CC BY-ND 4.0"@en .
+# 
+# https://creativecommons.org/licenses/by-sa/1.0/
+<https://creativecommons.org/licenses/by-sa/1.0/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://creativecommons.org/licenses/by-sa/1.0/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://cor.esipfed.org/ont/CCL_0000002> .
+<https://creativecommons.org/licenses/by-sa/1.0/> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<https://creativecommons.org/licenses/by-sa/1.0/> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-07-02T00:16:37Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://creativecommons.org/licenses/by-sa/1.0/> <http://www.w3.org/2000/01/rdf-schema#label> "CC BY-SA 1.0"@en .
+# 
+# https://creativecommons.org/licenses/by-sa/2.0/
+<https://creativecommons.org/licenses/by-sa/2.0/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://creativecommons.org/licenses/by-sa/2.0/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://cor.esipfed.org/ont/CCL_0000002> .
+<https://creativecommons.org/licenses/by-sa/2.0/> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<https://creativecommons.org/licenses/by-sa/2.0/> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-07-02T00:15:44Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://creativecommons.org/licenses/by-sa/2.0/> <http://www.w3.org/2000/01/rdf-schema#label> "CC BY-SA 2.0"@en .
+# 
+# https://creativecommons.org/licenses/by-sa/3.0/
+<https://creativecommons.org/licenses/by-sa/3.0/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://creativecommons.org/licenses/by-sa/3.0/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://cor.esipfed.org/ont/CCL_0000002> .
+<https://creativecommons.org/licenses/by-sa/3.0/> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<https://creativecommons.org/licenses/by-sa/3.0/> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-07-02T00:14:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://creativecommons.org/licenses/by-sa/3.0/> <http://www.w3.org/2000/01/rdf-schema#label> "CC BY-SA 3.0"@en .
+# 
+# https://creativecommons.org/licenses/by-sa/4.0/
+<https://creativecommons.org/licenses/by-sa/4.0/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://creativecommons.org/licenses/by-sa/4.0/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://cor.esipfed.org/ont/CCL_0000002> .
+<https://creativecommons.org/licenses/by-sa/4.0/> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<https://creativecommons.org/licenses/by-sa/4.0/> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-07-02T00:14:12Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://creativecommons.org/licenses/by-sa/4.0/> <http://www.w3.org/2000/01/rdf-schema#label> "CC BY-SA 4.0"@en .
+# 
+# https://creativecommons.org/licenses/by/1.0/
+<https://creativecommons.org/licenses/by/1.0/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://creativecommons.org/licenses/by/1.0/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://cor.esipfed.org/ont/CCL_0000001> .
+<https://creativecommons.org/licenses/by/1.0/> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<https://creativecommons.org/licenses/by/1.0/> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-07-02T00:11:55Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://creativecommons.org/licenses/by/1.0/> <http://www.w3.org/2000/01/rdf-schema#label> "CC BY 1.0"@en .
+# 
+# https://creativecommons.org/licenses/by/2.0/
+<https://creativecommons.org/licenses/by/2.0/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://creativecommons.org/licenses/by/2.0/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://cor.esipfed.org/ont/CCL_0000001> .
+<https://creativecommons.org/licenses/by/2.0/> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<https://creativecommons.org/licenses/by/2.0/> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-07-02T00:11:12Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://creativecommons.org/licenses/by/2.0/> <http://www.w3.org/2000/01/rdf-schema#label> "CC BY 2.0"@en .
+# 
+# https://creativecommons.org/licenses/by/3.0/
+<https://creativecommons.org/licenses/by/3.0/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://creativecommons.org/licenses/by/3.0/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://cor.esipfed.org/ont/CCL_0000001> .
+<https://creativecommons.org/licenses/by/3.0/> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<https://creativecommons.org/licenses/by/3.0/> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-07-02T00:10:40Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://creativecommons.org/licenses/by/3.0/> <http://www.w3.org/2000/01/rdf-schema#label> "CC BY 3.0"@en .
+# 
+# https://creativecommons.org/licenses/by/4.0/
+<https://creativecommons.org/licenses/by/4.0/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://creativecommons.org/licenses/by/4.0/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://cor.esipfed.org/ont/CCL_0000001> .
+<https://creativecommons.org/licenses/by/4.0/> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<https://creativecommons.org/licenses/by/4.0/> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-07-02T00:06:34Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://creativecommons.org/licenses/by/4.0/> <http://www.w3.org/2000/01/rdf-schema#label> "CC BY 4.0"@en .
+# 
+# https://creativecommons.org/publicdomain/zero/1.0/
+<https://creativecommons.org/publicdomain/zero/1.0/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://creativecommons.org/publicdomain/zero/1.0/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://creativecommons.org/share-your-work/public-domain/cc0/> .
+<https://creativecommons.org/publicdomain/zero/1.0/> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<https://creativecommons.org/publicdomain/zero/1.0/> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-07-03T04:57:48Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://creativecommons.org/publicdomain/zero/1.0/> <http://www.w3.org/2000/01/rdf-schema#label> "CC0 1.0 Universal (CC0 1.0) Public Domain Dedication"@en .
+# 
+# https://creativecommons.org/share-your-work/public-domain/pdm
+<https://creativecommons.org/share-your-work/public-domain/pdm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://creativecommons.org/share-your-work/public-domain/pdm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://core.esipfed.org/ont/SWL_0000014> .
+<https://creativecommons.org/share-your-work/public-domain/pdm> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<https://creativecommons.org/share-your-work/public-domain/pdm> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-07-03T04:52:56Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://creativecommons.org/share-your-work/public-domain/pdm> <http://www.w3.org/2000/01/rdf-schema#label> "Public Domain Mark"@en .
+# 
+_:genid1 <http://creativecommons.org/ns#license> <https://creativecommons.org/publicdomain/zero/1.0/> .
+# 
+# 
+# #################################################################
+# #
+# #    Annotations
+# #
+# #################################################################
+# 
+# 
+<http://creativecommons.org/ns#Attribution> <http://www.w3.org/2000/01/rdf-schema#comment> "credit be given to\n\t\t    copyright holder and/or author"@en-us .
+<http://creativecommons.org/ns#Attribution> <http://www.w3.org/2000/01/rdf-schema#label> "Attribution"@en-us .
+# 
+<http://creativecommons.org/ns#CommercialUse> <http://www.w3.org/2000/01/rdf-schema#comment> "exercising rights for\n\t\t    commercial purposes"@en-us .
+<http://creativecommons.org/ns#CommercialUse> <http://www.w3.org/2000/01/rdf-schema#label> "Commercial Use"@en-us .
+# 
+<http://creativecommons.org/ns#Copyleft> <http://www.w3.org/2000/01/rdf-schema#comment> "derivative and\n\t\t    combined works must be licensed under specified\n\t\t    terms, similar to those on the original\n\t\t    work"@en-us .
+<http://creativecommons.org/ns#Copyleft> <http://www.w3.org/2000/01/rdf-schema#label> "Copyleft"@en-us .
+# 
+<http://creativecommons.org/ns#DerivativeWorks> <http://www.w3.org/2000/01/rdf-schema#comment> "distribution of\n\t\t    derivative works"@en-us .
+<http://creativecommons.org/ns#DerivativeWorks> <http://www.w3.org/2000/01/rdf-schema#label> "Derivative Works"@en-us .
+# 
+<http://creativecommons.org/ns#Distribution> <http://www.w3.org/2000/01/rdf-schema#comment> "distribution, public\n\t\t    display, and publicly performance"@en-us .
+<http://creativecommons.org/ns#Distribution> <http://www.w3.org/2000/01/rdf-schema#label> "Distribution"@en-us .
+# 
+<http://creativecommons.org/ns#HighIncomeNationUse> <http://www.w3.org/2000/01/rdf-schema#comment> "use in a\n\t\t    non-developing country"@en-us .
+<http://creativecommons.org/ns#HighIncomeNationUse> <http://www.w3.org/2000/01/rdf-schema#label> "High Income Nation Use"@en-us .
+# 
+<http://creativecommons.org/ns#LesserCopyleft> <http://www.w3.org/2000/01/rdf-schema#comment> "derivative works must\n\t\t    be licensed under specified terms, with at least\n\t\t    the same conditions as the original work;\n\t\t    combinations with the work may be licensed under\n\t\t    different terms"@en-us .
+<http://creativecommons.org/ns#LesserCopyleft> <http://www.w3.org/2000/01/rdf-schema#label> "Lesser Copyleft"@en-us .
+# 
+<http://creativecommons.org/ns#Notice> <http://www.w3.org/2000/01/rdf-schema#comment> "copyright and license\n\t\t    notices be kept intact"@en-us .
+<http://creativecommons.org/ns#Notice> <http://www.w3.org/2000/01/rdf-schema#label> "Notice"@en-us .
+# 
+<http://creativecommons.org/ns#Reproduction> <http://www.w3.org/2000/01/rdf-schema#comment> "making multiple\n\t\t    copies"@en-us .
+<http://creativecommons.org/ns#Reproduction> <http://www.w3.org/2000/01/rdf-schema#label> "Reproduction"@en-us .
+# 
+<http://creativecommons.org/ns#ShareAlike> <http://www.w3.org/2000/01/rdf-schema#comment> "derivative works be\n\t\t    licensed under the same terms or compatible terms\n\t\t    as the original work"@en-us .
+<http://creativecommons.org/ns#ShareAlike> <http://www.w3.org/2000/01/rdf-schema#label> "Share Alike"@en-us .
+# 
+<http://creativecommons.org/ns#Sharing> <http://www.w3.org/2000/01/rdf-schema#comment> "permits commercial\n\t\t    derivatives, but only non-commercial\n\t\t    distribution"@en-us .
+<http://creativecommons.org/ns#Sharing> <http://www.w3.org/2000/01/rdf-schema#label> "Sharing"@en-us .
+# 
+<http://creativecommons.org/ns#SourceCode> <http://www.w3.org/2000/01/rdf-schema#comment> "source code (the\n\t\t    preferred form for making modifications) must be\n\t\t    provided when exercising some rights granted by\n\t\t    the license."@en-us .
+<http://creativecommons.org/ns#SourceCode> <http://www.w3.org/2000/01/rdf-schema#label> "Source Code"@en-us .
+# 
+<http://creativecommons.org/ns#license> <http://www.w3.org/2000/01/rdf-schema#label> "has\n\t\t  license"@en-us .
+# 
+# Generated by the OWL API (version 5.1.9) https://github.com/owlcs/owlapi/

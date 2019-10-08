@@ -1,0 +1,779 @@
+[ {
+  "@id" : "_:genid1",
+  "http://creativecommons.org/ns#license" : [ {
+    "@id" : "https://creativecommons.org/publicdomain/zero/1.0/"
+  } ]
+}, {
+  "@id" : "http://cor.esipfed.org/ont/CCL_0000001",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-07-01T23:53:55Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Attribution (CC BY)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://creativecommons.org/ns#License"
+  } ]
+}, {
+  "@id" : "http://cor.esipfed.org/ont/CCL_0000002",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-07-01T23:54:26Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Attribution ShareAlike (CC BY-SA)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://creativecommons.org/ns#License"
+  } ]
+}, {
+  "@id" : "http://cor.esipfed.org/ont/CCL_0000003",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-07-01T23:54:48Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Attribution-NoDerivatives 1.0"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://creativecommons.org/ns#License"
+  } ]
+}, {
+  "@id" : "http://cor.esipfed.org/ont/CCL_0000004",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-07-01T23:55:24Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Attribution-NonCommercial (CC BY-NC)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://creativecommons.org/ns#License"
+  } ]
+}, {
+  "@id" : "http://cor.esipfed.org/ont/CCL_0000005",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-07-01T23:56:08Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Attribution-NonCommercial-ShareAlike (CC BY-NC-SA)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://creativecommons.org/ns#License"
+  } ]
+}, {
+  "@id" : "http://cor.esipfed.org/ont/CCL_0000007",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-07-03T04:42:02Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Attribution-NonCommercial-NoDerivatives (CC BY-NC-ND)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://creativecommons.org/ns#License"
+  } ]
+}, {
+  "@id" : "http://cor.esipfed.org/ont/CCL_0000011",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-07-03T04:50:10Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Public Domain"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://creativecommons.org/ns#License"
+  } ]
+}, {
+  "@id" : "http://cor.esipfed.org/ont/earthcube/cclo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "https://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@language" : "en",
+    "@value" : "2019-03-06T00:50:17Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This mini-ontology contains instances for each version of the licenses and public domain entities maintained by the Creative Commons (creativecommons.org)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Creative Commons Licenses Ontology"
+  } ]
+}, {
+  "@id" : "http://core.esipfed.org/ont/SWL_0000014",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-07-03T22:53:19Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "PDM \"No Known Copyright\""
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cor.esipfed.org/ont/CCL_0000011"
+  } ]
+}, {
+  "@id" : "http://creativecommons.org/ns#Attribution",
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en-us",
+    "@value" : "credit be given to\n\t\t    copyright holder and/or author"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en-us",
+    "@value" : "Attribution"
+  } ]
+}, {
+  "@id" : "http://creativecommons.org/ns#CommercialUse",
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en-us",
+    "@value" : "exercising rights for\n\t\t    commercial purposes"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en-us",
+    "@value" : "Commercial Use"
+  } ]
+}, {
+  "@id" : "http://creativecommons.org/ns#Copyleft",
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en-us",
+    "@value" : "derivative and\n\t\t    combined works must be licensed under specified\n\t\t    terms, similar to those on the original\n\t\t    work"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en-us",
+    "@value" : "Copyleft"
+  } ]
+}, {
+  "@id" : "http://creativecommons.org/ns#DerivativeWorks",
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en-us",
+    "@value" : "distribution of\n\t\t    derivative works"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en-us",
+    "@value" : "Derivative Works"
+  } ]
+}, {
+  "@id" : "http://creativecommons.org/ns#Distribution",
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en-us",
+    "@value" : "distribution, public\n\t\t    display, and publicly performance"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en-us",
+    "@value" : "Distribution"
+  } ]
+}, {
+  "@id" : "http://creativecommons.org/ns#HighIncomeNationUse",
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en-us",
+    "@value" : "use in a\n\t\t    non-developing country"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en-us",
+    "@value" : "High Income Nation Use"
+  } ]
+}, {
+  "@id" : "http://creativecommons.org/ns#LesserCopyleft",
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en-us",
+    "@value" : "derivative works must\n\t\t    be licensed under specified terms, with at least\n\t\t    the same conditions as the original work;\n\t\t    combinations with the work may be licensed under\n\t\t    different terms"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en-us",
+    "@value" : "Lesser Copyleft"
+  } ]
+}, {
+  "@id" : "http://creativecommons.org/ns#License",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en-us",
+    "@value" : "a set of\n\t\t    requests/permissions to users of a Work, e.g. a\n\t\t    copyright license, the public domain, information\n\t\t    for distributors"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en-us",
+    "@value" : "License"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.org/dc/terms/LicenseDocument"
+  } ]
+}, {
+  "@id" : "http://creativecommons.org/ns#Notice",
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en-us",
+    "@value" : "copyright and license\n\t\t    notices be kept intact"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en-us",
+    "@value" : "Notice"
+  } ]
+}, {
+  "@id" : "http://creativecommons.org/ns#Reproduction",
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en-us",
+    "@value" : "making multiple\n\t\t    copies"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en-us",
+    "@value" : "Reproduction"
+  } ]
+}, {
+  "@id" : "http://creativecommons.org/ns#ShareAlike",
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en-us",
+    "@value" : "derivative works be\n\t\t    licensed under the same terms or compatible terms\n\t\t    as the original work"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en-us",
+    "@value" : "Share Alike"
+  } ]
+}, {
+  "@id" : "http://creativecommons.org/ns#Sharing",
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en-us",
+    "@value" : "permits commercial\n\t\t    derivatives, but only non-commercial\n\t\t    distribution"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en-us",
+    "@value" : "Sharing"
+  } ]
+}, {
+  "@id" : "http://creativecommons.org/ns#SourceCode",
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en-us",
+    "@value" : "source code (the\n\t\t    preferred form for making modifications) must be\n\t\t    provided when exercising some rights granted by\n\t\t    the license."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en-us",
+    "@value" : "Source Code"
+  } ]
+}, {
+  "@id" : "http://creativecommons.org/ns#attributionName",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ]
+}, {
+  "@id" : "http://creativecommons.org/ns#deprecatedOn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://creativecommons.org/ns#License"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en-us",
+    "@value" : "deprecated\n\t\t  on"
+  } ]
+}, {
+  "@id" : "http://creativecommons.org/ns#jurisdiction",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://creativecommons.org/ns#License"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en-us",
+    "@value" : "jurisdiction"
+  } ]
+}, {
+  "@id" : "http://creativecommons.org/ns#legalcode",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://creativecommons.org/ns#License"
+  } ]
+}, {
+  "@id" : "http://creativecommons.org/ns#license",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty", "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en-us",
+    "@value" : "has\n\t\t  license"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://creativecommons.org/ns#License"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://purl.org/dc/terms/license"
+  } ],
+  "http://www.w3.org/2002/07/owl#sameAs" : [ {
+    "@id" : "http://www.w3.org/1999/xhtml/vocab#license"
+  } ]
+}, {
+  "@id" : "http://creativecommons.org/ns#morePermissions",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://purl.org/dc/terms/relation"
+  } ]
+}, {
+  "@id" : "http://creativecommons.org/ns#permits",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://creativecommons.org/ns#License"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en-us",
+    "@value" : "permits"
+  } ]
+}, {
+  "@id" : "http://creativecommons.org/ns#prohibits",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://creativecommons.org/ns#License"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en-us",
+    "@value" : "prohibits"
+  } ]
+}, {
+  "@id" : "http://creativecommons.org/ns#requires",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://creativecommons.org/ns#License"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en-us",
+    "@value" : "requires"
+  } ]
+}, {
+  "@id" : "http://creativecommons.org/ns#useGuidelines",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://purl.org/dc/terms/relation"
+  } ]
+}, {
+  "@id" : "http://purl.org/dc/terms/LicenseDocument",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/license",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/relation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/1999/xhtml/vocab#license",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "https://creativecommons.org/licenses/by-nc-nd/1.0/",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://cor.esipfed.org/ont/CCL_0000007" ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-07-03T22:42:11Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "CC BY-ND-NC 1.0"
+  } ]
+}, {
+  "@id" : "https://creativecommons.org/licenses/by-nc-nd/2.0/",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://cor.esipfed.org/ont/CCL_0000007" ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-07-03T22:40:32Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "CC BY-NC-ND 2.0"
+  } ]
+}, {
+  "@id" : "https://creativecommons.org/licenses/by-nc-nd/3.0/",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://cor.esipfed.org/ont/CCL_0000007" ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-07-03T22:39:21Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "CC BY-NC-ND 3.0"
+  } ]
+}, {
+  "@id" : "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://cor.esipfed.org/ont/CCL_0000007" ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-07-03T22:38:05Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "CC BY-NC-ND 4.0"
+  } ]
+}, {
+  "@id" : "https://creativecommons.org/licenses/by-nc-sa/1.0/",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://cor.esipfed.org/ont/CCL_0000005" ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-07-03T04:34:23Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "CC BY-NC-SA 1.0"
+  } ]
+}, {
+  "@id" : "https://creativecommons.org/licenses/by-nc-sa/2.0/",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://cor.esipfed.org/ont/CCL_0000005" ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-07-03T04:33:38Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "CC BY-NC-SA 2.0"
+  } ]
+}, {
+  "@id" : "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://cor.esipfed.org/ont/CCL_0000005" ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-07-03T04:32:40Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "CC BY-NC-SA 3.0"
+  } ]
+}, {
+  "@id" : "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://cor.esipfed.org/ont/CCL_0000005" ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-07-03T04:31:34Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "CC BY-NC-SA 4.0"
+  } ]
+}, {
+  "@id" : "https://creativecommons.org/licenses/by-nc/1.0",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://cor.esipfed.org/ont/CCL_0000004" ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-07-03T22:46:04Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "CC BY-NC 1.0"
+  } ]
+}, {
+  "@id" : "https://creativecommons.org/licenses/by-nc/2.0",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://cor.esipfed.org/ont/CCL_0000004" ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-07-03T22:45:09Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "CC BY-NC 2.0"
+  } ]
+}, {
+  "@id" : "https://creativecommons.org/licenses/by-nc/3.0/",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://cor.esipfed.org/ont/CCL_0000004" ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-07-03T22:44:20Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "CC BY-NC 3.0"
+  } ]
+}, {
+  "@id" : "https://creativecommons.org/licenses/by-nc/4.0/",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://cor.esipfed.org/ont/CCL_0000004" ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-07-03T22:43:41Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "CC BY-NC 4.0"
+  } ]
+}, {
+  "@id" : "https://creativecommons.org/licenses/by-nd/1.0/",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://cor.esipfed.org/ont/CCL_0000003" ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-07-02T00:21:33Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "CC BY-ND 1.0"
+  } ]
+}, {
+  "@id" : "https://creativecommons.org/licenses/by-nd/2.0/",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://cor.esipfed.org/ont/CCL_0000003" ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-07-02T00:20:44Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "CC BY-ND 2.0"
+  } ]
+}, {
+  "@id" : "https://creativecommons.org/licenses/by-nd/3.0/",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://cor.esipfed.org/ont/CCL_0000003" ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-07-02T00:20:01Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "CC BY-ND 3.0"
+  } ]
+}, {
+  "@id" : "https://creativecommons.org/licenses/by-nd/4.0/",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://cor.esipfed.org/ont/CCL_0000003" ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-07-02T00:17:38Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "CC BY-ND 4.0"
+  } ]
+}, {
+  "@id" : "https://creativecommons.org/licenses/by-sa/1.0/",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://cor.esipfed.org/ont/CCL_0000002" ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-07-02T00:16:37Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "CC BY-SA 1.0"
+  } ]
+}, {
+  "@id" : "https://creativecommons.org/licenses/by-sa/2.0/",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://cor.esipfed.org/ont/CCL_0000002" ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-07-02T00:15:44Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "CC BY-SA 2.0"
+  } ]
+}, {
+  "@id" : "https://creativecommons.org/licenses/by-sa/3.0/",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://cor.esipfed.org/ont/CCL_0000002" ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-07-02T00:14:59Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "CC BY-SA 3.0"
+  } ]
+}, {
+  "@id" : "https://creativecommons.org/licenses/by-sa/4.0/",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://cor.esipfed.org/ont/CCL_0000002" ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-07-02T00:14:12Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "CC BY-SA 4.0"
+  } ]
+}, {
+  "@id" : "https://creativecommons.org/licenses/by/1.0/",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://cor.esipfed.org/ont/CCL_0000001" ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-07-02T00:11:55Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "CC BY 1.0"
+  } ]
+}, {
+  "@id" : "https://creativecommons.org/licenses/by/2.0/",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://cor.esipfed.org/ont/CCL_0000001" ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-07-02T00:11:12Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "CC BY 2.0"
+  } ]
+}, {
+  "@id" : "https://creativecommons.org/licenses/by/3.0/",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://cor.esipfed.org/ont/CCL_0000001" ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-07-02T00:10:40Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "CC BY 3.0"
+  } ]
+}, {
+  "@id" : "https://creativecommons.org/licenses/by/4.0/",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://cor.esipfed.org/ont/CCL_0000001" ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-07-02T00:06:34Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "CC BY 4.0"
+  } ]
+}, {
+  "@id" : "https://creativecommons.org/publicdomain/zero/1.0/",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://creativecommons.org/share-your-work/public-domain/cc0/" ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-07-03T04:57:48Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "CC0 1.0 Universal (CC0 1.0) Public Domain Dedication"
+  } ]
+}, {
+  "@id" : "https://creativecommons.org/share-your-work/public-domain/cc0/",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-07-03T04:55:44Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "CC0 “No Rights Reserved”"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cor.esipfed.org/ont/CCL_0000011"
+  } ]
+}, {
+  "@id" : "https://creativecommons.org/share-your-work/public-domain/pdm",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://core.esipfed.org/ont/SWL_0000014" ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-07-03T04:52:56Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Public Domain Mark"
+  } ]
+} ]
